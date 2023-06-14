@@ -14,13 +14,14 @@ print (a + b)
 
 
 // Exercise 2: Check if a Number is Even or Odd
+// Request the user to give you a number
+n = int(input("Please type in a number: "))
 
-If (n % 2 == 0)
-	print (“EVEN”)
-ELSE IF (n % 2 != 0)
-	print (“ODD”)
-ELSE 
-	Print (“ERROR, YOU DID NOT GIVE ME A NUMBER”)
+//Then use the modulo operator to see if there is a remainder left over
+if n % 2 == 0:
+    print ("Even")
+else:
+    print ("odd")
 
 
 If (n % 2 == 0)
